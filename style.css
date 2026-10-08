@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: beige;
+  max-width: 1000px;
+  margin: auto;
+}
+b {
+  display: flex;
+  background-color: lightgreen;
+  color: darkgreen;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 25%;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+#legcim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#elsou {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+}
+ol li a {
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: small;
+  padding: 10px;
+}
+ol li a:hover {
+  color: white;
+  background-color: darkgreen;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: small;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: darkgreen;
+  padding: 20px;
+  border-radius: 15px;
+}
+#allomas {
+  display: flex;
+  color: rgb(228, 228, 137);
+  font-variant: small-caps;
+  font-weight: bold;
+}
+h1 {
+  color: white;
+}
+#balh p {
+  color: white;
+}
+img {
+  max-width: 50px;
+}
+#balh{
+flex: 0 1 60%;
+
+
+}
+#jobbh {
+  background-color: green;
+  padding: 30px;
+  color: white;
+}
+#jobbh h3{
+
+ color:  rgb(228, 228, 137);
+}
